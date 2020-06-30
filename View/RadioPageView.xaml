@@ -1,0 +1,190 @@
+﻿<UserControl x:Class="Ducky.View.RadioPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             mc:Ignorable="d" 
+             d:DesignHeight="559" d:DesignWidth="815" >
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="RadioCategoryTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{Binding RadioPic}" Width="30" ></Image>
+                <Label Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}" 
+                       Content="{Binding RadioName}"></Label>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="RadioItemTemplate">
+            <StackPanel MinWidth="100">
+                <Label Content="{Binding RadioName}" HorizontalAlignment="Center" 
+                       Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Small}"></Label>
+                <StackPanel.InputBindings>
+                    <MouseBinding Gesture="LeftDoubleClick"
+                              Command="{Binding DataContext.StationDoubleClickCommand,
+                                  RelativeSource={RelativeSource FindAncestor,
+                                      AncestorType=UserControl}}"></MouseBinding>
+                </StackPanel.InputBindings>
+            </StackPanel>
+        </DataTemplate>
+
+        <Storyboard x:Key="Heart">
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" 
+                                From="0.9" To="0" 
+                                Storyboard.TargetName="likeHeart" 
+                                Duration="0:0:1" AccelerationRatio="0.1" />
+        </Storyboard>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Label  Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="0"
+                        Style="{DynamicResource BigLabelStyle}"
+                        VerticalAlignment="Center" HorizontalAlignment="Left" >Radio</Label>
+
+        <!--Song Image-->
+        <Ellipse Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="2" Grid.RowSpan="10"
+                     Stroke="{DynamicResource SecondColorBrush}" StrokeThickness="5" >
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="{Binding CurrentStation.RadioLogo}"></ImageBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+        <ContentControl Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="1" Grid.RowSpan="13">
+            <fa:ImageAwesome x:Name="likeHeart" Icon="Heart" Foreground="White" Opacity="0"/>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDoubleClick" >
+                    <i:InvokeCommandAction Command="{Binding SongLikeCommand}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <ContentControl.Triggers>
+                <EventTrigger RoutedEvent="ContentControl.MouseDoubleClick">
+                    <BeginStoryboard Storyboard="{StaticResource Heart}"/>
+                </EventTrigger>
+            </ContentControl.Triggers>
+        </ContentControl>
+ 
+
+        <StackPanel Grid.Row="3" Grid.Column="12" Grid.ColumnSpan="20" Grid.RowSpan="5">
+            <Label Style="{DynamicResource BigLabelStyle}" Foreground="{DynamicResource SecondColorBrush}"
+                   Content="{Binding CurrentStation.RadioName}" FontSize="{StaticResource H1}"></Label>
+            <Label Style="{DynamicResource BigLabelStyle}" FontSize="{StaticResource Big}"
+                   Content="{Binding CurrentStation.RadioSongName}"></Label>
+            <Label Style="{DynamicResource DiscriptionLabel}" FontSize="{StaticResource Regular}"
+                   Content="{Binding CurrentStation.RadioArtist}" ></Label>
+        </StackPanel>
+
+        <ListView Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="8" Grid.RowSpan="7"
+                  ItemsSource="{Binding Categories}"
+                  ItemTemplate="{DynamicResource RadioCategoryTemplate}"
+                  SelectedIndex="{Binding CategoryIndex}" BorderThickness="0"
+                  Style="{DynamicResource  MenuListBoxStyle}" ItemContainerStyle="{DynamicResource MenuListBoxItemStyle}">
+        </ListView>
+
+        <ListView Grid.Row="13" Grid.Column="9" Grid.ColumnSpan="22" Grid.RowSpan="9" 
+                  BorderThickness="0" 
+                  Background="Transparent" ItemsSource="{Binding StationList}"
+                  ItemTemplate="{DynamicResource RadioItemTemplate}" SelectedIndex="{Binding StationIndex}">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Width="{Binding (FrameworkElement.ActualWidth), 
+                                RelativeSource={RelativeSource AncestorType=ScrollContentPresenter}}"
+                                ItemWidth="{Binding (ListView.View).ItemWidth, 
+                                RelativeSource={RelativeSource AncestorType=ListView}}"
+                                MinWidth="{Binding ItemWidth, RelativeSource={RelativeSource Self}}"
+                                ItemHeight="{Binding (ListView.View).ItemHeight, 
+                                RelativeSource={RelativeSource AncestorType=ListView}}" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Padding" Value="5"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="BorderBrush" Value="{DynamicResource SecondColorBrush}"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListView>
+
+        <fa:ImageAwesome Icon="Spinner" Foreground="{DynamicResource SecondColorBrush}"
+                         Spin="True" Visibility="{Binding RadioSpinVisibility}" Opacity="0.6"
+                         Grid.Column="1" Grid.ColumnSpan="10" Grid.Row="2" Grid.RowSpan="10">
+        </fa:ImageAwesome>
+
+        <!--Play Button-->
+        <Button Grid.Column="19" Grid.Row="8" Grid.RowSpan="4" Grid.ColumnSpan="4" 
+                        Margin="8" Style="{DynamicResource PlayerPlayStyle}" 
+                        FontSize="{StaticResource H1}" Command="{Binding PlayRadioCommand}"
+                        Visibility="{Binding PlayingVisibility}">▶</Button>
+        <!--Play Button-->
+        <Button Grid.Column="19" Grid.Row="8" Grid.RowSpan="4" Grid.ColumnSpan="4" 
+                        Margin="8" Style="{DynamicResource PlayerPauseStyle}" 
+                        FontSize="{StaticResource H1}" Command="{Binding PauseRadioCommand}"
+                        Visibility="{Binding PauseVisibility}">◼</Button>
+    </Grid>
+</UserControl>

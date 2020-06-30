@@ -1,0 +1,236 @@
+﻿<UserControl x:Class="Ducky.View.TwitchPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ducky.View"
+              xmlns:fa="http://schemas.fontawesome.io/icons/"
+             mc:Ignorable="d" 
+             d:DesignHeight="559" d:DesignWidth="815" >
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="StreamTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Ellipse Grid.RowSpan="5" Width="40" Height="40" >
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="{Binding logo}"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <VirtualizingStackPanel Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="6" Orientation="Horizontal">
+                    <Label Foreground="White" FontSize="{StaticResource Regular}"
+                           Content="{Binding display_name}" FontFamily="{StaticResource HeadersFont}" VerticalAlignment="Center"/>
+                    <Image Visibility="{Binding partner}" Width="20" Stretch="Uniform"  Source="/Resources/Icons/verified.PNG" 
+                       HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+                    <Border VerticalAlignment="Stretch" Margin="15,0,0,0"  Background="{Binding dotcolor}"
+                            CornerRadius="5" Height="20" >
+                        <Label Foreground="White"   FontSize="{StaticResource Small}" 
+                               Content="{Binding channel_status}" Padding="5,1,5,0"
+                               FontFamily="{StaticResource BaseFont}"/>
+                    </Border>
+                    <Label Foreground="White"   FontSize="{StaticResource Small}" 
+                               Content="{Binding livetime}" VerticalAlignment="Center"
+                               FontFamily="{StaticResource BaseFont}"/>
+                    <Label FontSize="{StaticResource Big}" Foreground="{Binding dotcolor}" 
+                           Content="•" Margin="15,0,-5,0" VerticalAlignment="Top" FontFamily="{StaticResource BaseFont}"/>
+                    <Label Foreground="White" FontSize="{StaticResource Regular}" Content="{Binding viewers}" 
+                           VerticalAlignment="Center" FontFamily="{StaticResource BaseFont}"/>
+                    <!--SUB-->
+                    <Border Margin="15,0,0,0" Height="25" Visibility="{Binding issub}" Background="#212126" >
+                        <StackPanel Orientation="Horizontal">
+                            <fa:ImageAwesome Margin="5,0,0,0" Icon="Star"  Foreground="#00C7AC"  Height="17"/>
+                            <Label Foreground="#00C7AC" FontSize="{StaticResource Small}" 
+                                   Content="{Binding subTier}" VerticalContentAlignment="Center"
+                                   Padding="10,2,5,3" FontFamily="{StaticResource BaseFont}"></Label>
+                        </StackPanel>
+                    </Border>
+                </VirtualizingStackPanel>
+
+                <StackPanel Margin="0,-10,0,-10" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5" Orientation="Horizontal">
+                    <Label Foreground="Gray" FontSize="{StaticResource Small}"
+                           Content="{Binding broadcast_discr}" FontFamily="{StaticResource BaseFont}"
+                           VerticalAlignment="Center" />
+                </StackPanel>
+
+                <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" FontFamily="{StaticResource BaseFont}"
+                       Foreground="Wheat" FontSize="{StaticResource Small}" Content="{Binding game}" />
+ 
+            </Grid>
+
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="5"
+                   Style="{DynamicResource BigLabelStyle}" 
+                   VerticalAlignment="Center" HorizontalAlignment="Left" >Twitch</Label>
+            <!--<Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="22"
+                   Content="{Binding FollowCount}" Style="{DynamicResource BigLabelStyle}"
+                   FontSize="{StaticResource Regular}" ></Label>-->
+            <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="22" 
+                        Orientation="Horizontal" Visibility="{Binding FiltersVisibility}">
+                <RadioButton IsChecked="{Binding AllFilterChecked, Mode=TwoWay}" Style="{DynamicResource SettingRadioButtonStyle}"
+                             Content="{Binding AllFilterContent}" FontFamily="{StaticResource BaseFont}"/>
+                <RadioButton IsChecked="{Binding OnlineRerunFilterChecked, Mode=TwoWay}" Style="{DynamicResource SettingRadioButtonStyle}"
+                             Content="{Binding OnlineRerunFilterContent}" FontFamily="{StaticResource BaseFont}"
+                             Margin="10,0,0,0"/>
+                <RadioButton IsChecked="{Binding OnlineFilterChecked, Mode=TwoWay}" Style="{DynamicResource SettingRadioButtonStyle}"
+                             Content="{Binding OnlineFilterContent}" FontFamily="{StaticResource BaseFont}"
+                             Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <ListBox BorderThickness="0" Grid.Row="3" Grid.Column="1" Grid.RowSpan="16" Grid.ColumnSpan="28"
+                     Background="Transparent" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                     ItemsSource="{Binding StreamCollection,UpdateSourceTrigger=Explicit}"
+                     ItemTemplate="{DynamicResource StreamTemplate}" 
+                     VirtualizingStackPanel.IsVirtualizing="True"
+                     VirtualizingStackPanel.CacheLength="20, 20"
+                     VirtualizingStackPanel.CacheLengthUnit="Item" 
+                     ScrollViewer.CanContentScroll="False">
+                <!-- при использовании CanContentScroll грузиться долго н все рабратет плано
+                без все здигается рывками и лагает-->
+                
+            </ListBox>
+        </Grid>
+
+        <Grid Visibility="{Binding LoadVisibility}" >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="3" Grid.Column="1"  Grid.ColumnSpan="28" Grid.RowSpan="16"  
+                    Background="{DynamicResource FirstColorBrush}" Opacity="0.1"/>
+            <fa:ImageAwesome  Grid.Row="10" Grid.Column="10" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                              Width="50"  Foreground="{DynamicResource SecondColorBrush}" 
+                              Icon="Spinner" Spin="True"></fa:ImageAwesome>
+            <Label Grid.Row="10" Grid.ColumnSpan="11" Grid.RowSpan="2" Grid.Column="12"
+                   VerticalAlignment="Center"  
+                   Style="{DynamicResource BigLabelStyle}" FontSize="{StaticResource Regular}" >Загрузка данных...</Label>
+        </Grid>
+    </Grid>
+</UserControl>

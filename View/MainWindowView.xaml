@@ -1,0 +1,243 @@
+﻿<Window x:Class="Ducky.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:Ducky.ViewModel"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+        xmlns:extensions="clr-namespace:Ducky.Helpers"
+        xmlns:views="clr-namespace:Ducky.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="{DynamicResource PageColor}" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" WindowState="{Binding CurWindowState, Mode=TwoWay}" 
+        ResizeMode="NoResize" Visibility="{Binding CurWindowVisibility}">
+
+    <Window.DataContext>
+        <viewmodels:MainWindowViewModel />
+    </Window.DataContext>
+    <Window.Resources>
+        <Storyboard x:Key="sbAlertShow">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" 
+                                From="0,-90,0,0" To="0,8,0,0" 
+                                Storyboard.TargetName="AlertGrid" 
+                                AccelerationRatio=".9" Duration="0:0:1.5" >
+                <ThicknessAnimation.EasingFunction>
+                    <ElasticEase EasingMode="EaseOut" Oscillations="2" Springiness="6" />
+                </ThicknessAnimation.EasingFunction>
+            </ThicknessAnimation>
+          </Storyboard>
+        <Storyboard x:Key="sbAlertHide">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                From="0,8,0,0" To="0,-90,0,0" 
+                                Storyboard.TargetName="AlertGrid"
+                                Duration="0:0:1" >
+                <ThicknessAnimation.EasingFunction>
+                    <ElasticEase EasingMode="EaseIn" Oscillations="1" Springiness="3" />
+                </ThicknessAnimation.EasingFunction>
+            </ThicknessAnimation>
+            
+        </Storyboard>
+
+        <Storyboard x:Key="ViewChange">
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" 
+                                From="1" To="0" 
+                                Storyboard.TargetName="ContControl" 
+                                Duration="0:0:0.8" >
+                <DoubleAnimation.EasingFunction>
+                    <PowerEase Power="6" />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" 
+                                From="0" To="1" 
+                                Storyboard.TargetName="ContControl" 
+                                 Duration="0:0:0.8" >
+                <DoubleAnimation.EasingFunction>
+                    <PowerEase Power="2" />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            
+        </Storyboard>
+        
+        <DataTemplate x:Name="mainView" DataType="{x:Type viewmodels:MainPageViewModel}">
+            <views:MainPage/>
+        </DataTemplate>
+        <DataTemplate x:Name="logsView" DataType="{x:Type viewmodels:LogsPageViewModel}">
+            <views:LogsPage />
+        </DataTemplate>
+        <DataTemplate x:Name="playerView" DataType="{x:Type viewmodels:PlayerPageViewModel}">
+            <views:PlayerPageView />
+        </DataTemplate>
+        <DataTemplate x:Name="settingView" DataType="{x:Type viewmodels:SettingsPageViewModel}">
+            <views:SettingsPageView />
+        </DataTemplate>
+        <DataTemplate x:Name="twitchView" DataType="{x:Type viewmodels:TwitchPageViewModel}">
+            <views:TwitchPageView/>
+        </DataTemplate>
+        <DataTemplate x:Name="radioView" DataType="{x:Type viewmodels:RadioPageViewModel}">
+            <views:RadioPageView/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid x:Name="mainGrid" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.RowSpan="18" Grid.ColumnSpan="5"
+                    x:Name="MenuBorder" Style="{DynamicResource MenuBorderStyle}"></Border>
+            <Border Grid.Column="0" Grid.ColumnSpan="28" Grid.RowSpan="1"
+                    x:Name="TopBorder" Background="Transparent" MouseDown="TopBorder_MouseDown"></Border>
+
+            <Label Grid.ColumnSpan="5" Grid.RowSpan="2" 
+                   Foreground="White" FontFamily="{StaticResource LogoFont}" FontSize="65" >Ducky</Label>
+            <ListBox x:Name="Menu" Grid.Row="2" Grid.RowSpan="10" Grid.ColumnSpan="5" 
+                     Background="Transparent" Style="{DynamicResource MenuListBoxStyle}" 
+                     SelectedIndex="{Binding Path=Item,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" IsSynchronizedWithCurrentItem="True">
+                    <ListBoxItem Padding="10,5,0,10" IsEnabled="False" Style="{DynamicResource MenuListBoxItemStyle}">HOME</ListBoxItem>
+                    <ListBoxItem Style="{DynamicResource MenuListBoxItemStyle}">Main</ListBoxItem>
+                    <ListBoxItem Style="{DynamicResource MenuListBoxItemStyle}">Player</ListBoxItem>
+                    <ListBoxItem Style="{DynamicResource MenuListBoxItemStyle}">Radio</ListBoxItem>
+                    <ListBoxItem Style="{DynamicResource MenuListBoxItemStyle}">Twitch</ListBoxItem>
+                    <ListBoxItem Style="{DynamicResource MenuListBoxItemStyle}">Settings</ListBoxItem>
+                    <ListBoxItem Style="{DynamicResource MenuListBoxItemStyle}">Logs</ListBoxItem>
+                <ListBox.Triggers>
+                    <EventTrigger RoutedEvent="ListBox.SelectionChanged">
+                        <BeginStoryboard Storyboard="{StaticResource ViewChange}" />
+                    </EventTrigger>
+                </ListBox.Triggers>
+            </ListBox>
+
+            <Button x:Name="CloseApp"   Grid.Column="27" Template="{DynamicResource CloseButtonStyle}" Command="{Binding CloseAppCommand}"></Button>
+            <Button x:Name="MaxWindow" Grid.Column="26" Template="{DynamicResource MaxButtonStyle}" Command="{Binding ResizeCommand}"></Button>
+            <Button x:Name="MinWindow" Visibility="Hidden" Grid.Column="26"></Button>
+            <Button x:Name="CollapseWindow"  Grid.Column="25" Template="{DynamicResource CollapseButtonStyle}" Command="{Binding CollapseCommand}">_</Button>
+
+            <ContentPresenter x:Name="ContControl"  Grid.Column="5" Grid.Row="1"
+                              Grid.RowSpan="17" Grid.ColumnSpan="23" 
+                              Content="{Binding SelectedViewModel}"></ContentPresenter>
+
+        </Grid>
+        <Grid x:Name="AlertGrid" Margin="0,-70,0,0" VerticalAlignment="Top" Width="450" Height="90">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <Border Background="{DynamicResource FirstColorBrush}" Opacity="0.3" Grid.ColumnSpan="25" Grid.RowSpan="8" 
+                    BorderBrush="White" CornerRadius="10"></Border>
+            <Border Background="{DynamicResource SecondColorBrush}" Opacity="0.05" Grid.ColumnSpan="25"  Grid.RowSpan="3" 
+                    BorderBrush="White" CornerRadius="10,10,0,0"></Border>
+
+            <Label Style="{DynamicResource DiscriptionLabel}" HorizontalAlignment="Center"
+                   Content="{Binding NewAlert.Time}"
+                   Grid.Row="1" Grid.ColumnSpan="4" Grid.Column="20"></Label>
+            <StackPanel Grid.Column="1" Grid.Row="1"  Grid.ColumnSpan="12" Orientation="Horizontal" VerticalAlignment="Center">
+                <Ellipse MinWidth="25">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="{Binding NewAlert.AlertImage}" Stretch="UniformToFill"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Label Padding="15,0,0,0" 
+                   HorizontalAlignment="Left"  VerticalAlignment="Center" VerticalContentAlignment="Center"
+                   Style="{DynamicResource SettingsLabelStyle}"  FontSize="{StaticResource Big}" 
+                   Content="{Binding NewAlert.AlertFrom}"></Label>
+            </StackPanel>
+
+            <TextBlock Grid.Column="1" Grid.ColumnSpan="20"  Grid.Row="4" 
+                       TextWrapping="Wrap" VerticalAlignment="Center" 
+                       FontSize="{StaticResource Small}" Foreground="LightGray" 
+                       LineStackingStrategy="BlockLineHeight" LineHeight="15"
+                       Text="{Binding NewAlert.AlertMessage}"></TextBlock>
+
+            <i:Interaction.Triggers>
+                <ei:DataTrigger Binding="{Binding IsAlertOn}" Value="ON">
+                    <ei:ControlStoryboardAction Storyboard="{StaticResource sbAlertShow}"  ControlStoryboardOption="Play"/>
+                </ei:DataTrigger>
+                <ei:DataTrigger Binding="{Binding IsAlertOn}" Value="OFF">
+                    <ei:ControlStoryboardAction Storyboard="{StaticResource sbAlertHide}"   ControlStoryboardOption="Play"/>
+                </ei:DataTrigger>
+            </i:Interaction.Triggers>
+
+        </Grid>
+    </Grid>
+</Window>

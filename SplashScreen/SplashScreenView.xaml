@@ -1,0 +1,48 @@
+﻿<Window x:Class="Ducky.SplashScreen.SplashScreenView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ducky.SplashScreen"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="{DynamicResource PageColor}" Height="400" Width="700"
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        ResizeMode="NoResize" >
+    <Window.Resources>
+        <Storyboard x:Key="EllipseAnim" >
+            <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                From="300,-103,300,403" To="300,83,300,217" 
+                                Storyboard.TargetName="AppIcon"
+                                Duration="0:0:1" >
+                <ThicknessAnimation.EasingFunction>
+                    <ElasticEase EasingMode="EaseOut" Oscillations="3" Springiness="4" />
+                </ThicknessAnimation.EasingFunction>
+            </ThicknessAnimation>
+
+        </Storyboard>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Margin="0,0,0,-110" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <Label  Foreground="White" FontFamily="{StaticResource LogoFont}" FontSize="105" >Ducky</Label>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <fa:ImageAwesome Icon="Spinner" Foreground="Gray" Spin="True" Width="30"/>
+                <Label Content="{Binding SplashScreenText}" Style="{DynamicResource DiscriptionLabel}"/>
+            </StackPanel>
+
+        </StackPanel>
+        <Ellipse x:Name="AppIcon" Height="100" Width="100" Margin="300,83,300,217">
+            <Ellipse.Fill>
+                <ImageBrush  ImageSource="pack://application:,,,/Resources/Images/duck.png"/>
+            </Ellipse.Fill>
+            <Ellipse.Triggers>
+                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                    <BeginStoryboard Storyboard="{StaticResource EllipseAnim}"/>
+                </EventTrigger>
+            </Ellipse.Triggers>
+        </Ellipse>
+    
+
+    </Grid>
+</Window>

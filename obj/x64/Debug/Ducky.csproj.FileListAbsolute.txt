@@ -1,0 +1,768 @@
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Ducky.exe
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Bass.Net.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\FontAwesome.WPF.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\bass.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\grpc_csharp_ext.x86.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\grpc_csharp_ext.x64.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x86.so
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x64.so
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x86.dylib
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x64.dylib
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\bassasio.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Ducky.exe.config
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Ducky.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\netstandard.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.AppContext.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Collections.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Console.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Data.Common.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Process.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Drawing.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Globalization.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.Pipes.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Linq.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.Http.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.NameResolution.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.Ping.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.Security.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.WebSockets.Client.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Net.WebSockets.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Reflection.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Resources.Reader.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Resources.Writer.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Security.SecureString.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.Thread.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.ThreadPool.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Xml.XPath.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\BigMath.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Flurl.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Flurl.Http.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.PlatformServices.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Core.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Ionic.Zip.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Ionic.ZLib.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\MihaZupan.HttpToSocks5Proxy.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\starksoft.aspen.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Interactive.Async.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ValueTuple.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Windows.Interactivity.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\TagLibSharp.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Telegram.Bot.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\TeleSharp.TL.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\TLSharp.Core.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\VkNet.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\xNet.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Bass.Net.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Flurl.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Flurl.Http.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\FontAwesome.WPF.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Core.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Core.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Ionic.Zip.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\starksoft.aspen.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.Interactive.Async.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\System.ValueTuple.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\Telegram.Bot.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\VkNet.xml
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.exe.config
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Colors\BlackViolet.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Theme.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Colors\VioletOrange.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Styles\BlackVioletColors.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Fonts.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\RadioPageView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\SplashScreen\SplashScreenView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\LogsPageView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\MainPageView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\MainWindowView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\PlayerPageView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\RadioPageView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\SettingsPageView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\TwitchPageView.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\App.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky_Content.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky_MarkupCompile.cache
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky_MarkupCompile.lref
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\App.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\SplashScreen\SplashScreenView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Colors\BlackWhite.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Styles\BlackWhiteColors.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Themes\Styles\VioletOrangeColors.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\LogsPageView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\MainPageView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\MainWindowView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\PlayerPageView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\SettingsPageView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\View\TwitchPageView.baml
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.g.resources
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.Properties.Resources.resources
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.GenerateResource.cache
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.CoreCompileInputs.cache
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.CopyComplete
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.exe
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.pdb
+C:\Users\cosha\source\repos\Ducky\Ducky\obj\x64\Debug\Ducky.csprojAssemblyReference.cache
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\bass.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\grpc_csharp_ext.x86.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\grpc_csharp_ext.x64.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x86.so
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x64.so
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x86.dylib
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x64.dylib
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\bassasio.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ducky.exe.config
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ducky.exe
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ducky.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\netstandard.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.AppContext.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Console.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Data.Common.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Process.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Drawing.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Globalization.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.Pipes.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Http.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.NameResolution.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Ping.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Security.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.WebSockets.Client.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.WebSockets.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Reflection.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Resources.Reader.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Resources.Writer.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.SecureString.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Thread.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.ThreadPool.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XPath.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Bass.Net.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\BigMath.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.Http.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\FontAwesome.WPF.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.PlatformServices.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ionic.Zip.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ionic.ZLib.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\MihaZupan.HttpToSocks5Proxy.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\starksoft.aspen.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Interactive.Async.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ValueTuple.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Windows.Interactivity.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\TagLibSharp.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Telegram.Bot.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\TeleSharp.TL.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\TLSharp.Core.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\VkNet.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\xNet.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Bass.Net.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.Http.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\FontAwesome.WPF.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ionic.Zip.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\starksoft.aspen.pdb
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Interactive.Async.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ValueTuple.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\Telegram.Bot.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\VkNet.xml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csprojAssemblyReference.cache
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.exe.config
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Colors\BlackViolet.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Theme.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Colors\VioletOrange.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Styles\BlackVioletColors.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Fonts.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\RadioPageView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\SplashScreen\SplashScreenView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\LogsPageView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainPageView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainWindowView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\PlayerPageView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\RadioPageView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\SettingsPageView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\TwitchPageView.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\App.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky_Content.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky_MarkupCompile.cache
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky_MarkupCompile.lref
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\App.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\SplashScreen\SplashScreenView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Colors\BlackWhite.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Styles\BlackWhiteColors.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Styles\VioletOrangeColors.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\LogsPageView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainPageView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainWindowView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\PlayerPageView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\SettingsPageView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\TwitchPageView.baml
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.g.resources
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.Properties.Resources.resources
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.GenerateResource.cache
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.CoreCompileInputs.cache
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.CopyComplete
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.exe
+C:\Users\cosha\source\repos\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\bass.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\grpc_csharp_ext.x86.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\grpc_csharp_ext.x64.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x86.so
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x64.so
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x86.dylib
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\libgrpc_csharp_ext.x64.dylib
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\bassasio.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ducky.exe.config
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ducky.exe
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ducky.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\netstandard.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.AppContext.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Console.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Data.Common.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Process.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Drawing.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Globalization.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.Pipes.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Http.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.NameResolution.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Ping.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Security.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.WebSockets.Client.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Net.WebSockets.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Reflection.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Resources.Reader.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Resources.Writer.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Security.SecureString.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Thread.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.ThreadPool.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XPath.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Bass.Net.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\BigMath.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.Http.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\FontAwesome.WPF.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.PlatformServices.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ionic.Zip.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ionic.ZLib.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\MihaZupan.HttpToSocks5Proxy.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\starksoft.aspen.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Interactive.Async.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ValueTuple.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Windows.Interactivity.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\TagLibSharp.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Telegram.Bot.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\TeleSharp.TL.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\TLSharp.Core.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\VkNet.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\xNet.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Bass.Net.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Flurl.Http.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\FontAwesome.WPF.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.CommonProtos.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Api.Gax.Grpc.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Auth.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.Core.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.LongRunning.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Google.Protobuf.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Auth.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Grpc.Core.Api.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\HtmlAgilityPack.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Ionic.Zip.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\starksoft.aspen.pdb
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.Interactive.Async.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\System.ValueTuple.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\Telegram.Bot.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\VkNet.xml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csprojAssemblyReference.cache
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.exe.config
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Colors\BlackViolet.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Theme.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Colors\VioletOrange.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Styles\BlackVioletColors.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Fonts.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\RadioPageView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\SplashScreen\SplashScreenView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\LogsPageView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainPageView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainWindowView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\PlayerPageView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\RadioPageView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\SettingsPageView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\TwitchPageView.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\App.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky_Content.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky_MarkupCompile.cache
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky_MarkupCompile.lref
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\App.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\SplashScreen\SplashScreenView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Colors\BlackWhite.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Styles\BlackWhiteColors.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Themes\Styles\VioletOrangeColors.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\LogsPageView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainPageView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\MainWindowView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\PlayerPageView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\SettingsPageView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\View\TwitchPageView.baml
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.g.resources
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.Properties.Resources.resources
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.GenerateResource.cache
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.CoreCompileInputs.cache
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.csproj.CopyComplete
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.exe
+C:\Users\paszaAlcohol\Desktop\VS projects\DuckyStack\Ducky\Ducky\obj\x64\Debug\Ducky.pdb

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BBC>
+	<BBCRadio1> 
+		<title>BBC Radio 1</title> 
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p</link>
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_one/tracks/latest/playable</json>
+	</BBCRadio1>
+	<BBCRadio2> 
+		<title>BBC Radio 1xtra</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1xtra_mf_p</link> 
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_1xtra/tracks/latest/playable</json>
+	</BBCRadio2>
+	<BBCRadio3> 
+		<title>BBC Radio 2</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p</link> 
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_two/tracks/latest/playable</json>
+	</BBCRadio3>
+	<BBCRadio4> 
+		<title>BBC Radio 3</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p</link>
+		<json></json>
+	</BBCRadio4>
+	<BBCRadio5>
+		<title>BBC Radio 4FM</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p</link>
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_three/tracks/latest/playable</json>
+	</BBCRadio5>
+	<BBCRadio6>
+		<title>BBC Radio 4LW</title> 
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4lw_mf_p</link> 
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_fourfm/tracks/latest/playable</json>
+	</BBCRadio6>
+	<BBCRadio7>
+		<title>BBC Radio 4Extra</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4extra_mf_p</link>
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_four_extra/tracks/latest/playable</json>
+	</BBCRadio7>
+	<BBCRadio8>
+		<title>BBC Radio 5 Live</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p</link> 
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_five_live/tracks/latest/playable"</json>
+	</BBCRadio8>
+	<BBCRadio9>
+		<title>BBC Radio 5 Live Sportsball Extra</title> 
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5extra_mf_p</link> 
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_radio_five_live/tracks/latest/playable</json>
+	</BBCRadio9>
+	<BBCRadio10> 
+		<title>BBC Radio 6 Music</title> 
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p</link> 
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_6music/tracks/latest/playable</json>
+	</BBCRadio10>
+	<BBCRadio11> 
+		<title>BBC Asian Network</title>
+		<link>http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p</link>
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_asian_network/tracks/latest/playable</json>
+	</BBCRadio11>
+	<BBCRadio12> 
+		<title>BBC World Service UK stream</title> 
+		<link>http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk</link> 
+		<json></json>
+	</BBCRadio12>
+	<BBCRadio13> 
+		<title>BBC World Service News stream</title>
+		<link>http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws</link>
+		<json>https://rms.api.bbc.co.uk/v2/services/bbc_world_service/tracks/latest/playable</json>
+	</BBCRadio13>
+</BBC>

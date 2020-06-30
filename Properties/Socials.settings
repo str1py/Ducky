@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ducky.Properties" GeneratedClassName="Socials">
+  <Profiles />
+  <Settings>
+    <Setting Name="TelegramApiID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">63305</Value>
+    </Setting>
+    <Setting Name="TelegramApiHash" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">371ba1c190e97d690122fbf99735ef3f</Value>
+    </Setting>
+    <Setting Name="TelegramUserID" Type="System.UInt64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TwitchAppClientID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vlf9a4486ky1mxdp7zeiedskxkxh8j</Value>
+    </Setting>
+    <Setting Name="TwitchAppClientSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5k791zxugyilu0kecgpvtog2o6lp12</Value>
+    </Setting>
+    <Setting Name="TwitchUserAccess_token" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TwitchUserRefresh_token" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TwitchBotToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">863198368:AAFxmAOsWDHKOB3aaMHbCXWhjJABe4FG4ps</Value>
+    </Setting>
+    <Setting Name="VkUserId" Type="System.UInt64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="VkAppId" Type="System.UInt64" Scope="Application">
+      <Value Profile="(Default)">7189275</Value>
+    </Setting>
+    <Setting Name="VkGroupId" Type="System.UInt64" Scope="Application">
+      <Value Profile="(Default)">188159188</Value>
+    </Setting>
+    <Setting Name="VkAccessKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5afd80161deb929433093eda3dffaf5842fbb12049d14c9e4c1fa937cd94a517760d01b3be2cdd9bb8c73</Value>
+    </Setting>
+    <Setting Name="VkSecurityKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0SgT1Q6YXZDNLQEgByWg</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

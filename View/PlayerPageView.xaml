@@ -1,0 +1,404 @@
+﻿<UserControl x:Class="Ducky.View.PlayerPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:extensions="clr-namespace:Ducky.Helpers" 
+             mc:Ignorable="d" 
+             d:DesignHeight="559" d:DesignWidth="815" >
+
+    <UserControl.Resources>
+        <Storyboard x:Key="sbSidePanelShow">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" 
+                                From="0,160,-60,150" To="0" 
+                                Storyboard.TargetName="SidePanel" 
+                                AccelerationRatio=".9" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="sbSidePanelHide">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                From="0" To="0,160,-60,150" 
+                                Storyboard.TargetName="SidePanel"
+                                AccelerationRatio=".9" Duration="0:0:0.5" />
+        </Storyboard>
+
+        <Image x:Key="Youtube" Source="/Resources/Icons/youtube.png"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <!--Deleiled Music Grid-->
+            <Grid Visibility="{Binding DetailedMusicGridVisibility}" Grid.ColumnSpan="30" Grid.RowSpan="21">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+
+                <Label  Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="0"
+                        Style="{DynamicResource BigLabelStyle}"
+                        VerticalAlignment="Center" HorizontalAlignment="Left" >Player</Label>
+                <!--Music Datagrid-->
+                <DataGrid x:Name="MusicListGrid" Grid.Row="5" Grid.Column="1" Grid.RowSpan="13" Grid.ColumnSpan="28" 
+                      AutoGenerateColumns="False"   HorizontalScrollBarVisibility="Hidden" 
+                      ItemsSource="{Binding MusicCollection,Mode=TwoWay, NotifyOnSourceUpdated=True}" 
+                      SelectedItem="{Binding SelectedItem}" SelectionMode="Single"
+                      SelectedIndex="{Binding SelectedIndex}" 
+                      Style="{DynamicResource MusicDataGridStyle}"   
+                      ColumnHeaderStyle="{DynamicResource MusicDataGridColumnHeaderStyle}" 
+                      RowStyle="{DynamicResource MusicDataGridRowStyle}" 
+                      CellStyle="{DynamicResource MusicDataGridCellStyle}" 
+                          
+                      IsReadOnly="True" VerticalGridLinesBrush="Transparent" HorizontalGridLinesBrush="Transparent"
+                      CanUserResizeColumns="False" CanUserResizeRows="False" IsSynchronizedWithCurrentItem="True" >
+                    <DataGrid.Columns >
+                        <DataGridTemplateColumn Header="" MinWidth="50"  >
+                            <DataGridTemplateColumn.CellTemplate >
+                                <DataTemplate>
+                                    <Grid x:Name="gr" Height="25" Width="45" >
+                                        <Border BorderThickness="1" CornerRadius="20" Margin="10,0" 
+                                            BorderBrush="White" Visibility="{Binding PauseVisibility}">
+                                            <Border.Effect>
+                                                <BlurEffect Radius="{Binding DataContext.BlurRadius, RelativeSource={RelativeSource AncestorType={x:Type UserControl}, Mode=FindAncestor}}" 
+                                                        RenderingBias="Quality"/>
+                                            </Border.Effect>
+                                        </Border>
+                                        <Button Visibility="{Binding PlayVisibility}"  FontSize="12" Content="▶"
+                                            Command="{Binding DataContext.PlayCommandFromGrid, RelativeSource={RelativeSource AncestorType={x:Type UserControl}, Mode=FindAncestor}}"
+                                            Style="{DynamicResource GridPlayButtonStyle}"/>
+                                        <Button Visibility="{Binding PauseVisibility}"  FontSize="12" Content="◼"
+                                            Command="{Binding DataContext.PauseCommandFromGrid, RelativeSource={RelativeSource AncestorType={x:Type UserControl}, Mode=FindAncestor}}"
+                                            Style="{DynamicResource GridPlayButtonStyle}"/>
+
+                                    </Grid>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="TITLE"  Binding="{Binding Title}" MinWidth="250" Width="Auto"  />
+                        <DataGridTextColumn Header="ARTIST" Binding="{Binding Artist}" MinWidth="180" Width="Auto"  />
+                        <DataGridTextColumn Header="ALBUM" Binding="{Binding Album}" MinWidth="150" Width="Auto" />
+                        <DataGridTextColumn Header="TIME" Binding="{Binding SongTime}" MinWidth="70" Width="Auto" />
+                    </DataGrid.Columns>
+                    <DataGrid.InputBindings>
+                        <MouseBinding MouseAction="LeftDoubleClick" Command="{Binding DataGridDoubleClick}"></MouseBinding>
+                    </DataGrid.InputBindings>
+                </DataGrid>
+                <fa:ImageAwesome Grid.Column="1" Grid.Row="3" Icon="Search"  Foreground="White" Margin="5" />
+                <!--SearchTextBox-->
+                <TextBox Grid.Row="3"  Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="23"
+                         Background="Transparent" FontFamily="{StaticResource BaseFont}" FontSize="{StaticResource Regular}"
+                         Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center"
+                         Style="{DynamicResource SearchTextBoxStyle}" />
+                <Border Grid.Row="18" Grid.RowSpan="3" Grid.ColumnSpan="30" Background="{DynamicResource FirstColorBrush}"/>
+                <!--SongImage-->
+                <Image  Grid.Row="18" Grid.ColumnSpan="3" Grid.RowSpan="3" Margin="7" Source="{Binding SongImage}"/>
+                <!--Title-->
+                <Label Grid.Row="18" Grid.ColumnSpan="7" Grid.RowSpan="2" Grid.Column="3" 
+                       Foreground="Wheat" FontSize="{StaticResource Regular}" 
+                       FontFamily="{StaticResource BaseFont}" Content="{Binding Title}"
+                       VerticalAlignment="Center" Margin="5,0,0,0" />
+                <!--Artist-->
+                <Label Grid.Row="19" Grid.ColumnSpan="7" Grid.RowSpan="2" Grid.Column="3"
+                       Foreground="Gray" FontSize="{StaticResource Small}" 
+                       FontFamily="{StaticResource BaseFont}" Content="{Binding Artist}"
+                       Margin="5,0,0,0" VerticalAlignment="Center" />
+                <!--Slider Song Time-->
+                <Slider Grid.Row="20" Grid.ColumnSpan="12" Grid.Column="12"
+                        Style="{DynamicResource SliderStyle}" 
+                        Value="{Binding SliderPos,Mode=TwoWay}" Maximum="{Binding SliderMax}" 
+                        extensions:SliderExtension.DragCompletedCommand="{Binding SlideCompletedCommand}"
+                        extensions:SliderExtension.DragStartedCommand="{Binding SlideDragStartedCommand}"
+                        VerticalAlignment="Center"/>
+                <!--Slider Song Volume-->
+                <Slider Grid.Row="19" Grid.ColumnSpan="4" Grid.Column="25" 
+                        Style="{DynamicResource SliderStyle}" 
+                        Value="{Binding SliderVolumePos,Mode=TwoWay}" Maximum="100" 
+                        extensions:SliderExtension.DragCompletedCommand="{Binding SlideVolumeCommand}"
+                        VerticalAlignment="Center"/>
+                <!--Song Time Now-->
+                <Label Grid.Row="20" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="10"
+                       HorizontalAlignment="Center" VerticalAlignment="Center" 
+                       Foreground="{DynamicResource ThirdColorBrush}" Content="{Binding SongTimeNow}"></Label>
+                <!--Song Time Full-->
+                <Label Grid.Row="20" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="24"
+                       HorizontalAlignment="Center" VerticalAlignment="Center" 
+                       Foreground="{DynamicResource ThirdColorBrush}" Content="{Binding FullSongTime}"></Label>
+
+                <!--Play Button-->
+                <Button Grid.Column="17" Grid.Row="18" Grid.RowSpan="2" Grid.ColumnSpan="2" 
+                        Margin="8" Style="{DynamicResource PlayerPlayStyle}" 
+                        FontSize="15" Command="{Binding PlayCommand}"
+                        Visibility="{Binding PlayingVisibility}">▶</Button>
+                <!--Play Button-->
+                <Button Grid.Column="17" Grid.Row="18" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                        Margin="8" Style="{DynamicResource PlayerPauseStyle}" 
+                        FontSize="15" Command="{Binding PauseCommand}"
+                        Visibility="{Binding PauseVisibility}">◼</Button>
+                <!--Play Button-->
+                <Button Grid.Column="15" Grid.Row="18" Grid.RowSpan="2" Grid.ColumnSpan="2" 
+                        Margin="12" Style="{DynamicResource PlayerOtherStyle}" 
+                        Command="{Binding PrevCommand}">◀◀</Button>
+                <!--Play Button-->
+                <Button Grid.Column="19" Grid.Row="18" Grid.RowSpan="2" Grid.ColumnSpan="2" 
+                        Margin="12" Style="{DynamicResource PlayerOtherStyle}" 
+                        Command="{Binding NextCommand}">▶▶</Button>
+                <!--Max Button-->
+                <Button Grid.Column="12" Grid.Row="18" Grid.ColumnSpan="2" Grid.RowSpan="2" 
+                        FontSize="{StaticResource Small}" Style="{DynamicResource MainButtonStyle}"
+                        Command="{Binding ChangeViewCommand}" >Max</Button>
+            </Grid>
+            <!--Minimal Music Grid-->
+            <Grid  Visibility="{Binding MinimalMusicGridVisibility}"  Grid.ColumnSpan="30" Grid.RowSpan="21">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+                <!--Min Button-->
+                <Button Grid.Column="1" Grid.Row="3" Style="{DynamicResource MainButtonStyle}" 
+                        Command="{Binding ChangeViewCommand}">Min</Button>
+                <!--Background Vizual-->
+                <Ellipse Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="16" Grid.RowSpan="16" 
+                         StrokeThickness="5" Stroke="{Binding ShadowColor}"
+                         MaxHeight="{Binding ImageSize}" MaxWidth="{Binding ImageSzie}" >
+                    <Ellipse.Effect>
+                        <DropShadowEffect Color="{Binding DataContext.ShadowColor, RelativeSource={RelativeSource AncestorType={x:Type UserControl}, Mode=FindAncestor}}" Opacity="1"
+                                          ShadowDepth="0" 
+                                          BlurRadius="{Binding DataContext.ShadowRadius, RelativeSource={RelativeSource AncestorType={x:Type UserControl}, Mode=FindAncestor}}"></DropShadowEffect>
+                    </Ellipse.Effect>
+                </Ellipse>
+                <!--Image Vizual-->
+                <Ellipse Grid.Column="6" Grid.Row="0" Grid.ColumnSpan="18" Grid.RowSpan="18"
+                         Width="{Binding ImageSize,Mode=TwoWay}" Height="{Binding ImageSize,Mode=TwoWay}" 
+                         HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <Ellipse.Fill>
+                        <ImageBrush Stretch="Uniform"  ImageSource="{Binding SongImage}" />
+                    </Ellipse.Fill>
+                    <Ellipse.Effect>
+                        <BlurEffect Radius="{Binding DataContext.BlurRadius, RelativeSource={RelativeSource AncestorType={x:Type UserControl}, Mode=FindAncestor}}" 
+                                    RenderingBias="Quality" />
+                    </Ellipse.Effect>
+                </Ellipse>
+
+            </Grid>
+        </Grid>
+        <!--SidePanel Grid-->
+        <Grid x:Name="SidePanel" MinWidth="75" MinHeight="240"  VerticalAlignment="Center"  HorizontalAlignment="Right" Margin="0,160,-60,150">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border Background="{DynamicResource FirstColorBrush}" CornerRadius="20" Grid.RowSpan="16" Grid.ColumnSpan="6" ></Border>
+            
+            <!--MusicResources-->
+            <!--YouTube-->
+            <Button Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Grid.ColumnSpan="3"
+                    IsEnabled="{Binding IsYoutubeEnable}" Command="{Binding YoutubeCommand}" 
+                    Content="{StaticResource Youtube}"
+                    Style="{DynamicResource SettingsButtonStyle}" 
+                    MaxHeight="50" MaxWidth="50">
+            </Button>
+            <!--ShowHide Buttons-->
+            <Button Grid.RowSpan="2" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="1" 
+                    Content="--" Command="{Binding ShowHideSideCommand}"
+                    Visibility="{Binding ShowPanelButtonVisibility}" >
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard Storyboard="{StaticResource sbSidePanelShow}"/>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+            <Button Grid.RowSpan="2"  Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="1" 
+                    Content="->" Command="{Binding ShowHideSideCommand}"
+                    Visibility="{Binding HidePanelButtonVisibility}" >
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard Storyboard="{StaticResource sbSidePanelHide}"/>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+
+        </Grid>
+    </Grid>
+</UserControl>

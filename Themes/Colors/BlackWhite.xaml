@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Ducky.Themes.Colors">
+
+
+
+    <!--#region COLORS-->
+    <SolidColorBrush x:Key="FrameBackground" Color="#000000"></SolidColorBrush>
+
+    <!--Menu bg, firstPageColor,GridSelectedItem-->
+    <SolidColorBrush x:Key="FirstColorBrush" Color="#000000"></SolidColorBrush>
+    <Color x:Key="FirstColor">#000000</Color>
+
+    <!--Foreground, SecondPageColor-->
+    <SolidColorBrush x:Key="SecondColorBrush" Color="White"></SolidColorBrush>
+    <Color x:Key="SecondColor">White</Color>
+
+    <!--MouseOver-->
+    <SolidColorBrush x:Key="ThirdColorBrush" Color="#FF212127"></SolidColorBrush>
+    <Color x:Key="ThirdColor">#FF212127</Color>
+
+    <SolidColorBrush x:Key="WheatBrush" Color="#FFF3E7D8"></SolidColorBrush>
+    <Color x:Key="WheatColor">#FFF3E7D8</Color>
+
+    <LinearGradientBrush x:Key="PageColor" >
+        <GradientStop Color="#000000" Offset="0"></GradientStop>
+        <GradientStop Color="#18181B" Offset="0.9"></GradientStop>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="TopButtonOverColor" Color="#FF5F5C61"></SolidColorBrush>
+    <SolidColorBrush x:Key="MenuItemsColor" Color="#FFDCDADA"></SolidColorBrush>
+    <SolidColorBrush x:Key="MenuSelectedItemsColor" Color="Wheat"></SolidColorBrush>
+    <SolidColorBrush x:Key="MenuMouseOverColor" Color="Wheat"></SolidColorBrush>
+    <SolidColorBrush x:Key="MenuEnableItemsColor" Color="White"></SolidColorBrush>
+    <SolidColorBrush x:Key="ButtonForeground" Color="White"></SolidColorBrush>
+
+    <!--#endregion-->
+
+</ResourceDictionary>

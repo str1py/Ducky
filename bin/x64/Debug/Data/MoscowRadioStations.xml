@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MoscowRS>
+	<MRS1> <title>Energy FM</title> <link>http://ic2.101.ru:8000/v1_1</link> </MRS1>
+	<MRS2> <title>Europa Plus</title> <link>http://ep128.hostingradio.ru:8030/ep128</link> </MRS2>
+	<MRS3> <title>Love Radio</title> <link>http://stream2.n340.com:80/12_love_64_reg_44?type=.flv</link> </MRS3>
+	<MRS4> <title>New Tone</title> <link>http://play.newtone.fm/live_01</link> </MRS4>
+	<MRS5> <title>1.FM</title> <link>http://sc-t40.1.fm:7018/</link> </MRS5>
+	<MRS6> <title>Comedy Radio</title> <link>http://ic2.101.ru:8000/v11_1</link> </MRS6>			
+</MoscowRS>
+
+
+

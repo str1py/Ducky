@@ -1,0 +1,1559 @@
+﻿<UserControl x:Class="Ducky.View.SettingsPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ducky.View"
+             xmlns:extensions="clr-namespace:Ducky.Helpers"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             mc:Ignorable="d" 
+             d:DesignHeight="559" d:DesignWidth="815" >
+    
+    <UserControl.Resources>
+        <DataTemplate x:Key="ProxyListItemTemplate">
+            <Grid  >
+                <Border BorderBrush="{DynamicResource ThirdColorBrush}" BorderThickness="0,0,0,1" >
+                    <Grid Margin="0,-7,0,-7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition />
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" 
+                               Visibility="{Binding IsSelectedVisibility}" 
+                               FontSize="{StaticResource Big}" Foreground="{DynamicResource SecondColorBrush}" 
+                               VerticalAlignment="Center">✓</Label>
+                        <fa:ImageAwesome Icon="Spinner" Spin="True" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Foreground="{DynamicResource SecondColorBrush}" Visibility="{Binding IsConnectingVisibility}" ></fa:ImageAwesome>
+                        <Label Grid.Column="1" Grid.Row="1"  Grid.ColumnSpan="2" FontFamily="{StaticResource BaseFont}" FontSize="{StaticResource Small}" Foreground="White" Content="{Binding ProxyType}"></Label>
+                        <Label Grid.Column="3" Grid.Row="1"  Grid.ColumnSpan="5"  FontFamily="{StaticResource BaseFont}"  Foreground="LightSlateGray" FontSize="{StaticResource Small}" Content="{Binding IpAndPort}"></Label>
+                        <Label Grid.Column="1" Grid.Row="2" Margin="0,-10,0,0" Grid.ColumnSpan="7"   Foreground="Gray" Content="{Binding State}"></Label>
+                    </Grid>
+                </Border>
+                <Grid.InputBindings>
+                    <MouseBinding Gesture="LeftDoubleClick"                                           
+                                  Command="{Binding RelativeSource={RelativeSource AncestorType=UserControl}, Path=DataContext.ListViewDoubleClick}"/>
+                </Grid.InputBindings>
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="30" Grid.RowSpan="20">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Label Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="0" 
+               Style="{DynamicResource BigLabelStyle}" VerticalAlignment="Center" 
+               HorizontalAlignment="Left" >Settings</Label>
+
+            <TabControl Grid.Row="2" Grid.ColumnSpan="29" Grid.RowSpan="18" Grid.Column="1" 
+                    BorderThickness="0" Background="Transparent"
+                    SelectedIndex="{Binding TabSelectedIndex}">
+                <TabItem Header="General" Style="{DynamicResource TabItemStyle}" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="1" Grid.ColumnSpan="8" BorderThickness="0,0,0,2" BorderBrush="{DynamicResource SecondColorBrush}"
+                           VerticalAlignment="Center" Style="{DynamicResource BigLabelStyle}"
+                           FontSize="{StaticResource Big}">General</Label>
+                        <Label  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="29" 
+                            Style="{DynamicResource DiscriptionLabel}" Margin="0,0,0,10">
+                            General application settings
+                        </Label>
+
+                        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="9" Orientation="Horizontal"  >
+                            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"
+                                  Style="{DynamicResource CheckBoxStyle}"></CheckBox>
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Regular}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Start Ducky when you log in</Label>
+                        </StackPanel>
+                        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="12" Orientation="Horizontal">
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Regular}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Default browser</Label>
+                            <ComboBox MinWidth="90" Height="25" Style="{DynamicResource ComboBoxStyle}"  >
+                                <ComboBoxItem>Google Chrome</ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                        <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="9" Orientation="Horizontal">
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Regular}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">App language</Label>
+                            <ComboBox MinWidth="90" Height="25" Style="{DynamicResource ComboBoxStyle}"  >
+                                <ComboBoxItem>English</ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                        <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="11" Orientation="Horizontal">
+                            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"
+                                  Style="{DynamicResource CheckBoxStyle}"></CheckBox>
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Regular}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Allow Ducky send error reports</Label>
+                        </StackPanel>
+                        <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="9" Orientation="Horizontal">
+                            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"
+                                  Style="{DynamicResource CheckBoxStyle}"></CheckBox>
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Regular}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Send Usage statisic</Label>
+                        </StackPanel>
+                        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="9" Orientation="Horizontal">
+                            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"
+                                  Style="{DynamicResource CheckBoxStyle}"></CheckBox>
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Regular}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Automaticaly update check</Label>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Themes" Style="{DynamicResource TabItemStyle}" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition  Height="auto"/>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="1" Grid.ColumnSpan="8" BorderThickness="0,0,0,2" BorderBrush="{DynamicResource SecondColorBrush}"
+                           VerticalAlignment="Center" Style="{DynamicResource BigLabelStyle}"
+                           FontSize="{StaticResource Big}">Themes</Label>
+                        <Label  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="29" 
+                            Style="{DynamicResource DiscriptionLabel}" Margin="0,0,0,10">
+                            Change your theme
+                        </Label>
+
+                        <!--First Theme-->
+                        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6" Orientation="Horizontal"  >
+                            <RadioButton  HorizontalAlignment="Center" VerticalAlignment="Center"
+                                   IsChecked="{Binding BlackWhiteIsChecked}"
+                                    Style="{DynamicResource SettingRadioButtonStyle}"></RadioButton>
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Smaller}" 
+                               VerticalAlignment="Center" HorizontalAlignment="Center">Black-White Theme</Label>
+                        </StackPanel>
+                        <Image Grid.Column="0" Grid.Row="3" Grid.RowSpan="5" Grid.ColumnSpan="8"
+                           Source="pack://application:,,,/Resources/Images/Themes/BlackWhiteTheme.png"></Image>
+
+                        <!--Second Theme-->
+                        <StackPanel Grid.Row="2"  Grid.Column="10" Grid.ColumnSpan="7" Orientation="Horizontal"  >
+                            <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding VioletOrangeIsChecked}"
+                              HorizontalAlignment="Center" VerticalAlignment="Center"></RadioButton>
+                            <Label Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Smaller}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Violet-Orange Theme</Label>
+                        </StackPanel>
+                        <Image Grid.Column="10" Grid.Row="3" Grid.RowSpan="5" Grid.ColumnSpan="8"
+                           Source="pack://application:,,,/Resources/Images/Themes/DarkTheme.png"></Image>
+
+                        <!--Third Theme-->
+                        <StackPanel Grid.Row="2" Grid.Column="20" Grid.ColumnSpan="7" Orientation="Horizontal">
+                            <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding BlackVioletIsChecked}"
+                              HorizontalAlignment="Center" VerticalAlignment="Center"></RadioButton>
+                            <Label   Style="{StaticResource BigLabelStyle}" FontSize="{StaticResource Smaller}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center">Dark-Violet Theme</Label>
+                        </StackPanel>
+                        <Image Grid.Column="20" Grid.Row="3" Grid.RowSpan="5" Grid.ColumnSpan="8"
+                           Source="pack://application:,,,/Resources/Images/Themes/DarkTheme.png"></Image>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Music" Style="{DynamicResource TabItemStyle}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"  />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="1" Grid.ColumnSpan="8" BorderThickness="0,0,0,2" BorderBrush="{DynamicResource SecondColorBrush}"
+                           VerticalAlignment="Center" Style="{DynamicResource BigLabelStyle}"
+                           FontSize="{StaticResource Big}">Music</Label>
+                        <Label  Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="29" 
+                            Style="{DynamicResource DiscriptionLabel}" Margin="0,0,0,10">
+                            Add,remove,change your music folders. On/off music search.
+                        </Label>
+                        <!--Папки с музыкой-->
+                        <Label Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="8" VerticalAlignment="Center" Style="{DynamicResource SettingsLabelStyle}" >Music folders</Label>
+                        <Button Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="3" Grid.RowSpan="1"  
+                            Style="{DynamicResource SettingsButtonStyle}" Command="{Binding AddFolderCommand}">Add</Button>
+                        <Button Grid.Column="6" Grid.Row="6" Grid.ColumnSpan="3" Grid.RowSpan="1"
+                            Style="{DynamicResource SettingsButtonStyle}" IsEnabled="{Binding DelEnable}"
+                            Command="{Binding DelFolderCommand}">Remove</Button>
+                        <ListView Grid.Row="7" Grid.ColumnSpan="20" Grid.RowSpan="6" Grid.Column="2" 
+                              ItemsSource="{Binding Folders}" FontFamily="{StaticResource BaseFont}" 
+                              Background="Transparent" Foreground="White"
+                              BorderThickness="1" BorderBrush="{DynamicResource ThirdColorBrush}" 
+                              SelectedIndex="{Binding FolderSelectedIndex}"></ListView>
+
+                        <!--Поиск по площадкам-->
+                        <DockPanel  Grid.Column="1" Grid.ColumnSpan="26" Grid.Row="13" Grid.RowSpan="2">
+                            <Label VerticalAlignment="Center" Margin="0" 
+                               Style="{DynamicResource SettingsLabelStyle}"
+                               >Search in online music services</Label>
+                            <CheckBox Style="{DynamicResource OrangeSwitchStyle}" VerticalAlignment="Center"
+                                  IsChecked="{Binding SoundAlertsIsChecked}" Margin="0,5,0,0"
+                                  HorizontalAlignment="Right" ></CheckBox>
+                        </DockPanel>
+                        <StackPanel Visibility="{Binding MusicSearchVisibility}"
+                                Grid.Row="15" Grid.Column="2" Grid.ColumnSpan="12" Grid.RowSpan="10" >
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox IsChecked="{Binding IsYoutube}" VerticalAlignment="Center" 
+                                      HorizontalAlignment="Center" Style="{DynamicResource CheckBoxStyle}"></CheckBox>
+                                <Label VerticalContentAlignment="Center" VerticalAlignment="Top"
+                                   Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Small}"
+                                   >Enable video search</Label>
+                                <Label Foreground="Red" VerticalContentAlignment="Center"
+                                   VerticalAlignment="Top" Style="{DynamicResource SettingsLabelStyle}" 
+                                   FontSize="{StaticResource Small}">YouTube</Label>
+                            </StackPanel>
+
+                        </StackPanel>
+
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Alerts" Style="{DynamicResource TabItemStyle}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"    />
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"  />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" Grid.RowSpan="1" Grid.ColumnSpan="8" BorderThickness="0,0,0,2" BorderBrush="{DynamicResource SecondColorBrush}"
+                           VerticalAlignment="Center" Style="{DynamicResource BigLabelStyle}"
+                           FontSize="{StaticResource Big}">Alerts</Label>
+                        <Label  Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="29" 
+                            Style="{DynamicResource DiscriptionLabel}" Margin="0,0,0,10">
+                            Change alert setting to get alert on different platforms, in different ways.
+                        </Label>
+
+                        <StackPanel Grid.Row="4" Grid.Column="1" Grid.RowSpan="14" Grid.ColumnSpan="26" Orientation="Vertical">
+
+                            <!--ЗВУКВЫЕ ОПОВЕЩАНИЯ-->
+                            <DockPanel  >
+                                <Label VerticalAlignment="Center" Style="{DynamicResource SettingsLabelStyle}" >Sound</Label>
+                                <Label VerticalAlignment="Center" Style="{DynamicResource DiscriptionLabel}"  >make a sound when something happens</Label>
+                                <CheckBox Style="{DynamicResource OrangeSwitchStyle}" VerticalAlignment="Center"
+                                      IsChecked="{Binding SoundAlertsIsChecked}" Margin="0,5,0,0" HorizontalAlignment="Right" ></CheckBox>
+                            </DockPanel>
+                            <StackPanel Visibility="{Binding  SoundAlertsVisibility}"  
+                                    Orientation="Vertical" Margin="30,0,0,0">
+                                <StackPanel Orientation="Horizontal">
+                                    <Label VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" 
+                                       Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Alert volume:</Label>
+                                    <fa:ImageAwesome  Icon="VolumeUp" Margin="0,5,5,0" Foreground="White" Width="20"></fa:ImageAwesome>
+                                    <TextBox Style="{DynamicResource SearchTextBoxStyle}" Background="Transparent"
+                                         Padding="0" VerticalContentAlignment="Center" BorderThickness="0" Height="25" MinWidth="35" 
+                                         Text="{Binding Value, ElementName=slider,Mode=TwoWay,StringFormat=F0}" IsEnabled="False" ></TextBox>
+                                    <Slider x:Name="slider" MinWidth="150" Margin="0,0,20,0"  Value="{Binding SoundSliderVolumePos}" Maximum="100" 
+                                        Style="{DynamicResource SliderStyle}" VerticalAlignment="Center"></Slider>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Label VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" 
+                           Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Alert sound:</Label>
+                                    <Button Style="{DynamicResource SettingsButtonStyle}" Command="{Binding SelectSoundCommand}"
+                                        Content="{Binding SoundName}"></Button>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <!--ТЕКСТОВЫЕ ОПОВЕЩАНИЯ -->
+                            <DockPanel Margin="0,30,0,0">
+                                <Label VerticalAlignment="Center" Style="{DynamicResource SettingsLabelStyle}">Text</Label>
+                                <Label VerticalAlignment="Center" Style="{DynamicResource DiscriptionLabel}"  >show popup with text</Label>
+                                <CheckBox Style="{DynamicResource OrangeSwitchStyle}" VerticalAlignment="Center"
+                                      IsChecked="{Binding TextAlertsIsChecked}" Margin="0,5,0,0" HorizontalAlignment="Right"></CheckBox>
+                            </DockPanel>
+                            <StackPanel Visibility="{Binding TextAlertsVisibility}" Orientation="Vertical" Margin="30,0,0,0">
+                                <StackPanel Orientation="Horizontal">
+                                    <Label FontSize="{StaticResource Regular}" Style="{DynamicResource SettingsLabelStyle}">Langeage of text alerts</Label>
+                                    <ComboBox MinWidth="90" Height="25" Style="{DynamicResource ComboBoxStyle}" >
+                                        <ComboBoxItem>Russian</ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Style="{DynamicResource CheckBoxStyle}"></CheckBox>
+                                    <Label Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Turn on random events</Label>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <!--ГОЛОСОВЫЕ ОПОВЕЩАНИЯ-->
+                            <DockPanel Margin="0,30,0,0">
+                                <Label VerticalAlignment="Center" Style="{DynamicResource SettingsLabelStyle}">Voice</Label>
+                                <Label VerticalAlignment="Center" Style="{DynamicResource DiscriptionLabel}"  >read the alert text</Label>
+                                <CheckBox Style="{DynamicResource OrangeSwitchStyle}" VerticalAlignment="Center"
+                                      IsChecked="{Binding VoiceAlertsIsChecked}" Margin="0,5,0,0" HorizontalAlignment="Right"></CheckBox>
+                            </DockPanel>
+                            <StackPanel Visibility="{Binding  VoiceAlertsVisibility}"  
+                                    Orientation="Vertical" Margin="30,0,0,0">
+                                <StackPanel Orientation="Horizontal">
+                                    <Label VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" 
+                                        Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Akerts volume:</Label>
+                                    <fa:ImageAwesome  Icon="VolumeUp" Margin="0,5,5,0" Foreground="White" Width="20"></fa:ImageAwesome>
+                                    <TextBox Style="{DynamicResource SearchTextBoxStyle}" Background="Transparent"
+                                                Padding="0" VerticalContentAlignment="Center" BorderThickness="0" Height="25" MinWidth="35" 
+                                                Text="{Binding Value, ElementName=voiceslider,Mode=TwoWay,StringFormat=F0}" ></TextBox>
+                                    <Slider x:Name="voiceslider" MinWidth="150" Margin="0,0,20,0" Maximum="100" Value="{Binding VoiceVolumeSliderPos}"
+                                        Style="{DynamicResource SliderStyle}" VerticalAlignment="Center"></Slider>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Label VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" 
+                           Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Language of alerts</Label>
+                                    <ComboBox Style="{DynamicResource ComboBoxStyle}" MinWidth="90" Height="25">
+                                        <ComboBoxItem >Русский</ComboBoxItem>
+                                        <ComboBoxItem IsEnabled="False">Английский</ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Socials" Style="{DynamicResource TabItemStyle}" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition Height="auto" />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="8" BorderThickness="0,0,0,2" BorderBrush="{DynamicResource SecondColorBrush}"
+                           VerticalAlignment="Center" Style="{DynamicResource BigLabelStyle}"
+                           FontSize="{StaticResource Big}">Connected accounts</Label>
+                        <Label  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="29" 
+                            Style="{DynamicResource DiscriptionLabel}" Margin="0,0,0,10">Connect your Ducky account to other networks to manage the application and your computer by using commands</Label>
+
+                        <!--Telegram block-->
+                        <Grid Grid.Row="2"  Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="9">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Border Grid.RowSpan="8" Grid.ColumnSpan="4" IsEnabled="{Binding IsTelegramEnabled}"
+                                Style="{DynamicResource SocialBorder}" CornerRadius="10" BorderThickness="2"/>
+
+                            <fa:ImageAwesome Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4"
+                                         Foreground="{DynamicResource SecondColorBrush}" 
+                                         Width="70" Icon="Telegram"></fa:ImageAwesome>
+                            <Label Grid.Row="3" Grid.RowSpan="2"  Grid.ColumnSpan="4" HorizontalAlignment="Center" 
+                               Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Telegram</Label>
+
+                            <!--TwitchConnectStackPanel-->
+                            <StackPanel Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="4" Orientation="Horizontal" 
+                                    HorizontalAlignment="Center" Margin="0,15,0,0" Visibility="{Binding TelegramConnectPanel}"  >
+                                <fa:ImageAwesome Icon="Spinner" Width="15" Spin="True" 
+                                             Foreground="Gray" Margin="0,0,3,0" VerticalAlignment="Center"
+                                             Visibility="{Binding TelegramSpinnerVisibility}"/>
+                                <Label Style="{DynamicResource SettingsLabelStyle}" 
+                                   FontSize="{StaticResource Small}" Foreground="Gray"
+                                   Content="{Binding TelegramConnectionContent}"/>
+                            </StackPanel>
+                            <!--TwitciUserButton-->
+                            <Button Grid.Column="0" Grid.Row="4" Grid.RowSpan="3" Grid.ColumnSpan="4"
+                                Style="{DynamicResource SettingsButtonStyle}" Visibility="{Binding TelegramUserVisibility}"
+                                Command="{Binding ShowTelegramProfileCommand}"  Content="{Binding TelegramUserButtonContent}"
+                                FontSize="{StaticResource Small}"></Button>
+
+                            <!--TwitcLoginButton-->
+                            <Button Grid.Column="1" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                                Style="{DynamicResource LoginButton}"  Visibility="{Binding TelegramLoginVisibility}"
+                                Command="{Binding TelegramLoginShowCommand}" FontSize="{StaticResource Small}">Connect</Button>
+                        </Grid>
+                        <!--ProxyBlock -->
+                        <Grid Grid.Row="7"  Grid.ColumnSpan="9">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.RowSpan="8" Grid.ColumnSpan="4" IsEnabled="{Binding IsProxyEnable}"
+                                Style="{DynamicResource SocialBorder}" CornerRadius="0,0,10,10" BorderThickness="2,0,2,2"/>
+                            <!--Status and IP-->
+                            <StackPanel Grid.Row="1" Grid.ColumnSpan="4"  Visibility="{Binding ProxyStateVisibility}"
+                                    VerticalAlignment="Center" Margin="10,0,0,0">
+                                <Label Style="{DynamicResource SettingsLabelStyle}" 
+                                   FontSize="{StaticResource Smaller}" 
+                                   Content="{Binding ProxyState}"/>
+                                <Label Style="{DynamicResource DiscriptionLabel}"
+                                   FontSize="{StaticResource Smaller}" Content="{Binding ProxyIp}"/>
+                            </StackPanel>
+                            <!--Connecting-->
+                            <StackPanel Grid.Row="1"  Grid.ColumnSpan="4" Visibility="{Binding ProxyConnectingVisibility}"
+                                    VerticalAlignment="Center" Margin="10,0,0,0" Orientation="Horizontal" >
+                                <fa:ImageAwesome Icon="Spinner" Spin="True" Width="30"
+                                 Foreground="{DynamicResource SecondColorBrush}"/>
+                                <Label Style="{DynamicResource DiscriptionLabel}"
+                                   FontSize="{StaticResource Smaller}" VerticalContentAlignment="Center" VerticalAlignment="Center" >Connecting to proxy...</Label>
+                            </StackPanel>
+                            <!--Proxy settings button-->
+                            <Button Grid.Column="3" Grid.Row="1" Grid.RowSpan="2"
+                                Style="{DynamicResource SettingsButtonStyle}" 
+                                Command="{Binding ProxySettingsCommand}">⚙</Button>
+                        </Grid>
+
+                        <!--Twitch block-->
+                        <Grid Grid.Row="2"  Grid.Column="9" Grid.RowSpan="5" Grid.ColumnSpan="9">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.RowSpan="8" Grid.ColumnSpan="4" CornerRadius="10" BorderThickness="2"
+                                IsEnabled="{Binding IsTwitchEnabled}" Style="{DynamicResource SocialBorder}"/>
+
+                            <fa:ImageAwesome Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4"
+                                         Foreground="{DynamicResource SecondColorBrush}" 
+                                         Width="70" Icon="Twitch"></fa:ImageAwesome>
+                            <Label Grid.Row="3" Grid.RowSpan="2"  Grid.ColumnSpan="4" HorizontalAlignment="Center" 
+                               Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">Twitch</Label>
+
+                            <!--TwitchConnectStackPanel-->
+                            <StackPanel Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="4" Orientation="Horizontal" 
+                                        HorizontalAlignment="Center" Margin="0,10,0,0" Visibility="{Binding TwitchConnectPanel}"  >
+                                <fa:ImageAwesome Icon="Spinner" Width="15" Spin="True" 
+                                             Foreground="Gray" Margin="0,0,3,0"
+                                             Visibility="{Binding TwitchSpinnerVisibility}"/>
+                                <Label HorizontalAlignment="Center" 
+                                   Style="{DynamicResource SettingsLabelStyle}"
+                                   FontSize="{StaticResource Small}" Foreground="Gray"
+                                   Content="{Binding TwitchConnectionContent}"></Label>
+                            </StackPanel>
+                            <!--TwitciUserButton-->
+                            <Button Grid.Column="0" Grid.Row="4" Grid.RowSpan="3" Grid.ColumnSpan="4"
+                                Style="{DynamicResource SettingsButtonStyle}" Visibility="{Binding TwitchUserVisibility}"
+                                Command="{Binding ShowTwitchProfileCommand}"  Content="{Binding TwitchUserButtonContent}"
+                                FontSize="{StaticResource Small}">
+                            </Button>
+                            <!--TwitcLoginButton-->
+                            <Button Grid.Column="1" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                                Style="{DynamicResource LoginButton}"  Visibility="{Binding TwitchLoginlVisibility}"
+                                Command="{Binding TwitchLoginCommand}" FontSize="{StaticResource Small}">Connect</Button>
+                        </Grid>
+
+                        <!--VK block-->
+                        <Grid Grid.Row="2"  Grid.Column="18" Grid.RowSpan="5" Grid.ColumnSpan="9">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.RowSpan="8" Grid.ColumnSpan="4" Style="{DynamicResource SocialBorder}"
+                                IsEnabled="{Binding IsVkUserLogin}"
+                                CornerRadius="10" BorderThickness="2">
+                            </Border>
+
+                            <fa:ImageAwesome Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4"
+                                         Foreground="{DynamicResource SecondColorBrush}" 
+                                         Width="70" Icon="Vk"></fa:ImageAwesome>
+                            <Label Grid.Row="3" Grid.RowSpan="2"  Grid.ColumnSpan="4" HorizontalAlignment="Center" 
+                               Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Regular}">VK</Label>
+                            <!--VkConnectStackPanel-->
+                            <StackPanel Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="4" Orientation="Horizontal" 
+                                    HorizontalAlignment="Center" Margin="0,10,0,0" Visibility="{Binding VkConnectPanel}"  >
+                                <fa:ImageAwesome Icon="Spinner" Width="15" Spin="True" 
+                                             Foreground="Gray" Margin="0,0,3,0"
+                                             Visibility="{Binding VkSpinVisibility}"></fa:ImageAwesome>
+                                <Label HorizontalAlignment="Center" 
+                                   Style="{DynamicResource SettingsLabelStyle}"
+                                   FontSize="{StaticResource Small}" Foreground="Gray"
+                                   Content="{Binding VkConnectionContent}"></Label>
+                            </StackPanel>
+                            <!--VkUserButton-->
+                            <Button Grid.Column="0" Grid.Row="4" Grid.RowSpan="3" Grid.ColumnSpan="4"
+                                Style="{DynamicResource SettingsButtonStyle}" Visibility="{Binding VkUserVisibility}"
+                                Command="{Binding ShowVkProfileCommand}"  Content="{Binding VkUserButtonContent}"></Button>
+                            <!--VkLoginButton-->
+                            <Button Grid.Column="1" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="{StaticResource Small}"
+                                Style="{DynamicResource LoginButton}"  Visibility="{Binding VkLoginButtonVisibility}"
+                                Command="{Binding VkLoginVisibilityCommand}" IsEnabled="{Binding VkLoginEnabled}" >Connect</Button>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <BlurEffect Radius="{Binding GridBlurRadius}" KernelType="Gaussian"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding GridBlurRadius}" Value="0">
+                            <Setter Property="Effect" Value="{x:Null}"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+        </Grid>
+       
+        <!-- Telegram Login Panel-->
+        <Grid  Grid.ColumnSpan="30" Grid.RowSpan="20"  Visibility="{Binding TelegramLoginPanelVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <!--BackGround-->
+            <Border Grid.ColumnSpan="30" Grid.RowSpan="20" 
+                    Background="{DynamicResource FirstColorBrush}"  Opacity="0.7"/>
+            <!--LoginBoreder-->
+            <Border Grid.Column="8" Grid.Row="2" Grid.RowSpan="16" Grid.ColumnSpan="13" 
+                    Background="{DynamicResource ThirdColorBrush}" CornerRadius="10" Opacity="0.93" />
+
+            <fa:ImageAwesome Grid.Column="8"  Grid.Row="3" Grid.RowSpan="2" Grid.ColumnSpan="13"
+                             Foreground="{DynamicResource SecondColorBrush}" HorizontalAlignment="Center"
+                             Icon="Telegram" Width="90" />
+
+            <Label Grid.Row="5" Grid.RowSpan="2" Grid.ColumnSpan="13" Grid.Column="8"
+                   Style="{DynamicResource SettingsLabelStyle}" HorizontalAlignment="Center">Sing In</Label>
+
+            <fa:ImageAwesome Grid.Row="6" Visibility="{Binding TelegtamLoginPanelSpinnerVisibility}"
+                             Grid.Column="9" Foreground="{DynamicResource SecondColorBrush}"
+                             Icon="Spinner" Spin="True"/>
+            
+            <Label Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="9" Grid.Column="10"
+                   FontSize="{StaticResource Small}" Foreground="Gray"
+                   Style="{DynamicResource DiscriptionLabel}" >Please enter your full phone number</Label>
+            
+            <Label Grid.Row="8" Grid.RowSpan="2" Grid.ColumnSpan="7" Grid.Column="10"
+                   FontSize="{StaticResource Small}" Foreground="Gray"
+                   Style="{DynamicResource SettingsLabelStyle}">Phone number</Label>
+            <TextBox Grid.Row="10"  Grid.ColumnSpan="10" Grid.Column="10"
+                     Style="{DynamicResource TgSettingTextBox}" Background="Transparent" 
+                     VerticalAlignment="Center" FontSize="{StaticResource Big}" 
+                     Text="{Binding TelegramPhone}" IsEnabled="{Binding IsTelegramLoginEnabled}"></TextBox>
+
+            <Button Grid.Column="12" Grid.Row="12" Grid.RowSpan="2" Grid.ColumnSpan="5"
+                    Style="{DynamicResource LoginButton}"  FontSize="{StaticResource Regular}" 
+                    Command="{Binding TelegramLoginNextCommand}" IsEnabled="{Binding IsTelegramLoginEnabled}">Next</Button>
+            <Button Grid.Column="11" Grid.Row="14" Grid.RowSpan="1" Grid.ColumnSpan="7" 
+                    FontSize="{StaticResource Regular}" Command="{Binding ProxySettingsCommand}" 
+                    Style="{DynamicResource SettingsButtonStyle}" IsEnabled="{Binding IsTelegramLoginEnabled}">Proxy settings</Button>
+            <Button Grid.Column="11" Grid.Row="16" Grid.RowSpan="1" Grid.ColumnSpan="7"
+                    Style="{DynamicResource SettingsButtonStyle}" FontSize="{StaticResource Regular}"
+                    Command="{Binding TelegramLoginCancleCommand}" IsEnabled="{Binding IsTelegramLoginEnabled}">Cancle</Button>
+        </Grid>
+        <!-- Twitch Login WebBrowser-->
+        <Grid Grid.ColumnSpan="30" Grid.RowSpan="20" Visibility="{Binding TwitchLoginlWebBrowserVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Border Grid.ColumnSpan="30" Grid.RowSpan="20"
+                    Background="{DynamicResource FirstColorBrush}" Opacity="0.7"></Border>
+            <WebBrowser Grid.Column="5" Grid.Row="4" Grid.ColumnSpan="20" Grid.RowSpan="14"
+                        extensions:WebBrowserExtension.BindableSource="{Binding TwitchLoginLink}"></WebBrowser>
+            <Button Grid.Column="25" Grid.Row="3" FontSize="{StaticResource Big}" 
+                    Style="{DynamicResource SettingsButtonStyle}"
+                    Command="{Binding TwitchLoginCloseCommand}">x</Button>
+        </Grid>
+        <!-- Proxy Settings Pannel-->
+        <Grid Visibility="{Binding ProxySettingsVisibility}" Grid.ColumnSpan="30" Grid.RowSpan="20" >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Border Grid.ColumnSpan="30" Grid.RowSpan="20"
+                    Background="{DynamicResource FirstColorBrush}" Opacity="0.7"/>
+            <Border Grid.Column="9" Grid.Row="3" Grid.ColumnSpan="12" Grid.RowSpan="13"
+                    Background="{DynamicResource ThirdColorBrush}" CornerRadius="10" Opacity="0.9">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="5"></DropShadowEffect>
+                </Border.Effect>
+            </Border>
+            <Label Grid.Row="3" Grid.RowSpan="2" Grid.Column="10" Padding="0" VerticalAlignment="Center" Grid.ColumnSpan="8" Style="{DynamicResource SettingsLabelStyle}">Proxy settings</Label>
+            <StackPanel Grid.Column="10" Grid.Row="5" Grid.ColumnSpan="9" Grid.RowSpan="3" Orientation="Vertical">
+                <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding EnableProxyCheck}" >Disable proxy</RadioButton>
+                <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding DefaultProxyCheck}">Default proxy</RadioButton>
+                <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding CustomProxyCheck}">Use custom proxy</RadioButton>
+            </StackPanel>
+
+            <ListView Grid.Row="9" Grid.Column="9" Grid.ColumnSpan="12" Grid.RowSpan="5"
+                      x:Name="proxylist" Style="{DynamicResource LogListStyle}" ItemsSource="{Binding ProxyList}"
+                      ItemTemplate="{DynamicResource ProxyListItemTemplate}" BorderThickness="0"  IsEnabled="{Binding IsProxyListEnable}"
+                      SelectedIndex="{Binding ProxySelectedIndex}" SelectedItem="{Binding ProxySelectedItem}">
+            </ListView>
+            <Button Grid.Column="18" Grid.Row="8" Grid.ColumnSpan="3"  Style="{DynamicResource SettingsButtonStyle}" Command="{Binding DeleteProxyCommand}">Удалить</Button>
+            <Button Grid.Column="18" Grid.Row="15" Grid.ColumnSpan="3" Style="{DynamicResource SettingsButtonStyle}" Command="{Binding AddProxyCommand}">Добавить</Button>
+            <Button Grid.Column="15" Grid.Row="15" Grid.ColumnSpan="3" Style="{DynamicResource SettingsButtonStyle}" Command="{Binding HideProxyCommand}">Отмена</Button>
+        </Grid>
+        <!-- Proxy Add Panel-->
+        <Grid Grid.ColumnSpan="30" Grid.RowSpan="20" Visibility="{Binding ProxyAddVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="9" Grid.Row="3" Grid.RowSpan="13" Grid.ColumnSpan="12" 
+                Background="{DynamicResource ThirdColorBrush}"  CornerRadius="10"/>
+
+            <Label Grid.RowSpan="2" Grid.Row="3" Grid.ColumnSpan="9" Grid.Column="11"
+                   Style="{DynamicResource SettingsLabelStyle}"
+                   VerticalAlignment="Center">Edit proxy</Label>
+            <StackPanel Grid.Row="5" Grid.Column="10" Grid.ColumnSpan="7" Grid.RowSpan="2">
+                <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding IsSocks5Check}"
+                   FontSize="{StaticResource Regular}" Foreground="White">Socks5</RadioButton>
+                <RadioButton Style="{DynamicResource SettingRadioButtonStyle}" IsChecked="{Binding IsHTTPCheck}"
+                   FontSize="{StaticResource Regular}" Foreground="White">HTTP</RadioButton>
+            </StackPanel>
+
+
+            <Label Grid.Row="6" Grid.Column="10" Grid.ColumnSpan="7" Grid.RowSpan="2"
+                   Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Small}">Cоединение</Label>
+            <!--Server-->
+            <Label Grid.Row="8" Grid.Column="10" Grid.ColumnSpan="3"  VerticalAlignment="Center"
+                   Style="{DynamicResource SettingsLabelStyle}" Foreground="Gray" 
+                   FontSize="{StaticResource Smaller}">Сервер</Label>
+            <TextBox Grid.Row="9" Grid.Column="10" Grid.ColumnSpan="6" Grid.RowSpan="1"
+                     Foreground="White" Background="Transparent" TextAlignment="Left" 
+                     VerticalContentAlignment="Center" Text="{Binding NewProxyIpAdress}" 
+                     Style="{DynamicResource TgSettingTextBox}"></TextBox>
+            <!--Port-->
+            <Label Grid.Row="8" Grid.Column="17" Grid.ColumnSpan="2" VerticalAlignment="Center"
+                   Style="{DynamicResource SettingsLabelStyle}" Foreground="Gray" FontSize="{StaticResource Smaller}">Порт</Label>
+            <TextBox Grid.Row="9" Grid.Column="17" Grid.ColumnSpan="3" Grid.RowSpan="1"
+                     Foreground="White" Background="Transparent"
+                     TextAlignment="Left" VerticalContentAlignment="Center"
+                     Style="{DynamicResource TgSettingTextBox}" Text="{Binding NewProxyPort}" ></TextBox>
+
+            <StackPanel Orientation="Vertical" Grid.Row="10" Grid.Column="10" Grid.ColumnSpan="10" Grid.RowSpan="6">
+                <Label VerticalAlignment="Bottom" Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Small}">Учетные данные (Необязательно)</Label>
+                <!--Login-->
+                <Label VerticalAlignment="Center" Foreground="Gray"
+                   Style="{DynamicResource SettingsLabelStyle}"  FontSize="{StaticResource Smaller}">Логин</Label>
+                <TextBox Foreground="White" Background="Transparent"
+                         TextAlignment="Left" VerticalContentAlignment="Center"
+                         Style="{DynamicResource TgSettingTextBox}" Text="{Binding NewProxyLogin}"></TextBox>
+                <!--Password-->
+                <Label VerticalAlignment="Center" Foreground="Gray" 
+                   Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Smaller}">Пароль</Label>
+                <TextBox Foreground="White" Background="Transparent"
+                         TextAlignment="Left" VerticalContentAlignment="Center"
+                         Style="{DynamicResource TgSettingTextBox}" Text="{Binding NewProxyPassword}"></TextBox>
+            </StackPanel>
+
+
+            <Button Grid.Column="18" Grid.ColumnSpan="3" Grid.Row="15" Command="{Binding NewProxyAddCommand}"
+                    Style="{DynamicResource SettingsButtonStyle}">Добавить</Button>
+            <Button Grid.Column="15" Grid.ColumnSpan="3" Grid.Row="15" 
+                    Style="{DynamicResource SettingsButtonStyle}" Command="{Binding AddCancleProxyCommand}">Отмена</Button>
+        </Grid>
+        <!-- Telegram Code Panel-->
+        <Grid  Grid.ColumnSpan="30" Grid.RowSpan="20"  Visibility="{Binding TelegramCodePanelVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <!--BackGround-->
+            <Border Grid.ColumnSpan="30" Grid.RowSpan="20" Background="{DynamicResource FirstColorBrush}"  Opacity="0.7">
+                <Border.Effect>
+                    <BlurEffect Radius="10"></BlurEffect>
+                </Border.Effect>
+            </Border>
+            <!--LoginBoreder-->
+            <Border Grid.Column="8" Grid.Row="2" Grid.RowSpan="16" Grid.ColumnSpan="13" 
+                    Background="{DynamicResource ThirdColorBrush}" CornerRadius="10" Opacity="0.93" >
+            </Border>
+
+            <fa:ImageAwesome Foreground="{DynamicResource SecondColorBrush}" HorizontalAlignment="Center"
+                             Width="90" Grid.Column="8" Icon="Telegram" Grid.Row="3" Grid.RowSpan="2" Grid.ColumnSpan="13" ></fa:ImageAwesome>
+
+            <TextBlock Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="11"
+                       Grid.Column="9" TextWrapping="WrapWithOverflow" 
+                       FontSize="{StaticResource Small}" FontFamily="{StaticResource DiscriptionFont}"  Foreground="Gray"> We have send you a message with activation code to your phone. Please enter it below</TextBlock>
+            <Label Style="{DynamicResource SettingsLabelStyle}"
+                   Grid.Row="9" Grid.RowSpan="2" Grid.ColumnSpan="8" Grid.Column="9"
+                   FontSize="{StaticResource Small}" Foreground="Gray">Your code</Label>
+            <TextBox Grid.Row="11"  Grid.ColumnSpan="11"  Grid.Column="9"
+                     Style="{DynamicResource TgSettingTextBox}"  Background="Transparent"   
+                     VerticalAlignment="Center" FontSize="{StaticResource Big}" 
+                     Text="{Binding TelegramCode,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+            <Button Grid.Column="12" Grid.Row="15" Grid.RowSpan="2" Grid.ColumnSpan="5"
+                    Style="{DynamicResource SettingsButtonStyle}" FontSize="{StaticResource Regular}" 
+                    Command="{Binding TelegramCodeCancleCommand}" >Отмена</Button>
+        </Grid>
+        <!--Vk Login-->
+        <Grid Grid.ColumnSpan="30" Grid.RowSpan="20" Visibility="{Binding VkLoginPanelVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <!--BackGround-->
+            <Border Grid.ColumnSpan="30" Grid.RowSpan="20" Background="{DynamicResource FirstColorBrush}"  Opacity="0.7">
+                <Border.Effect>
+                    <BlurEffect Radius="10"></BlurEffect>
+                </Border.Effect>
+            </Border>
+            <!--LoginBoreder-->
+            <Border Grid.Column="8" Grid.Row="2" Grid.RowSpan="16" Grid.ColumnSpan="13" 
+                    Background="{DynamicResource ThirdColorBrush}" CornerRadius="10" Opacity="0.93" >
+            </Border>
+
+            <fa:ImageAwesome Foreground="{DynamicResource SecondColorBrush}" HorizontalAlignment="Center"
+                             Width="90" Grid.Column="8" Icon="Vk" Grid.Row="3" Grid.RowSpan="2" Grid.ColumnSpan="13" ></fa:ImageAwesome>
+
+            <xctk:WatermarkTextBox Grid.Row="9" Grid.Column="10" Grid.ColumnSpan="9" 
+                                   Foreground="White" Background="Transparent" BorderThickness="0,0,0,1" BorderBrush="White"
+                                   FontSize="{StaticResource Small}" VerticalContentAlignment="Center"
+                                   Text="{Binding VkLoginText}" Watermark="Login" />
+
+            <xctk:WatermarkPasswordBox  x:Name="vkpass" Grid.Row="11" Grid.Column="10" Grid.ColumnSpan="9" 
+                                        Foreground="White" Background="Transparent" BorderThickness="0,0,0,1"
+                                        FontSize="{StaticResource Small}" BorderBrush="White" 
+                                        PasswordChanged="Vkpass_PasswordChanged" >
+            </xctk:WatermarkPasswordBox>
+
+            <Button  Grid.Row="13" Grid.Column="15" Grid.ColumnSpan="5" Grid.RowSpan="2" FontSize="{StaticResource Regular}"
+                     Style="{DynamicResource LoginButton}" Command="{Binding VkLoginCommand}"
+                     FontFamily="{StaticResource BaseFont}">SING IN</Button>
+            <Button  Grid.Row="13" Grid.Column="9" Grid.ColumnSpan="4" Grid.RowSpan="2" FontSize="{StaticResource Regular}"
+                     Style="{DynamicResource SettingsButtonStyle}" Command="{Binding VkLoginCancleCommand}"
+                     FontFamily="{StaticResource BaseFont}">CANCLE</Button>
+
+        </Grid>
+        <!--UserInfoPanel-->
+        <Grid Grid.ColumnSpan="30" Grid.RowSpan="20" x:Name="UserInfo"
+             Visibility="{Binding UserInfoPanelVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Border Grid.ColumnSpan="30" Grid.RowSpan="20" Background="{DynamicResource FirstColorBrush}" Opacity="0.7"></Border>
+            <Border Grid.Column="8" Grid.Row="5" Grid.RowSpan="10" Grid.ColumnSpan="14" 
+                    Background="{DynamicResource ThirdColorBrush}" CornerRadius="10" Opacity="0.9">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="10" Grid.RowSpan="2"
+                           Style="{DynamicResource SettingsLabelStyle}"  >Info</Label>
+
+                    <StackPanel Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="22" Grid.RowSpan="7"  
+                        HorizontalAlignment="Center"  Orientation="Vertical" >
+
+                        <Ellipse Width="80" Height="80" StrokeThickness="3" >
+                            <Ellipse.Fill>
+                                <ImageBrush Stretch="UniformToFill" ImageSource="{Binding User.UserPhoto}"></ImageBrush>
+                            </Ellipse.Fill>
+                            <Ellipse.Stroke>
+                                <SolidColorBrush Color="{DynamicResource SecondColor}" Opacity="0.5" ></SolidColorBrush>
+                            </Ellipse.Stroke>
+                        </Ellipse>
+                        <Label Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Small}"
+                               HorizontalAlignment="Center" Margin="0,10,0,0" Content="{Binding User.UserName}"></Label>
+                        <Label Style="{DynamicResource SettingsLabelStyle}" FontSize="{StaticResource Small}"
+                               HorizontalAlignment="Center" Content="{Binding User.UserNickName}"></Label>
+                    </StackPanel>
+
+                    <Button Grid.Column="7" Grid.Row="12" Grid.ColumnSpan="9" Grid.RowSpan="3"
+                    Style="{DynamicResource LoginButton}" 
+                    Command="{Binding LogoutCommand}" FontSize="{StaticResource Small}"
+                    Background="DarkGray" BorderBrush="DarkGray">Disconnect</Button>
+
+                    <Button Grid.Column="18" Grid.Row="13" Grid.ColumnSpan="4" Grid.RowSpan="1"
+                    Style="{DynamicResource SettingsButtonStyle}" FontSize="{StaticResource Regular}"
+                    Command="{Binding UserInfoCancleCommand}">Отмена</Button>
+                </Grid>
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</UserControl>

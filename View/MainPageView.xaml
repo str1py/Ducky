@@ -1,0 +1,311 @@
+﻿<UserControl x:Class="Ducky.View.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ducky.View"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" 
+             xmlns:lb="clr-namespace:Ducky.Helpers"
+             xmlns:t ="clr-namespace:Ducky.Model.Messages"
+             mc:Ignorable="d" 
+             d:DesignHeight="559" d:DesignWidth="815" >
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="UserMessage">
+            <Grid  MinHeight="30" >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="{DynamicResource FirstColorBrush}" Grid.ColumnSpan="4" CornerRadius="8" Grid.RowSpan="4">
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="1" Color="{DynamicResource FirstColor}" BlurRadius="2"></DropShadowEffect>
+                    </Border.Effect>
+                </Border>
+                <TextBlock Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="1" TextWrapping="Wrap"
+                               MinWidth="200" MaxWidth="500" Foreground="White" Text="{Binding text}" 
+                               FontSize="{StaticResource Small}" Padding="8,8,8,0"
+                               FontFamily="{StaticResource MessageFont}"></TextBlock>
+                <Label Content="{Binding fromAndDate}"  Foreground="AntiqueWhite"  FontSize="10" 
+                       Grid.Row="2" Padding="0,3,3,3" Grid.Column="3" FontStyle="Italic" HorizontalAlignment="Right" 
+                       VerticalAlignment="Bottom" FontFamily="{StaticResource BaseFont}" />
+                <Grid.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                                        From="-200,0,0,0" To="0"
+                                                        AccelerationRatio="0.9" Duration="0:0:0.4">
+                                        <ThicknessAnimation.EasingFunction>
+                                            <ElasticEase EasingMode="EaseOut" Oscillations="1" Springiness="7" />
+                                        </ThicknessAnimation.EasingFunction>
+                                    </ThicknessAnimation>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Grid.Triggers>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="DuckyMesaage">
+            <Grid  MinHeight="30" >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="{DynamicResource SecondColorBrush}" Grid.ColumnSpan="4" CornerRadius="8" Grid.RowSpan="4">
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="1" Color="{DynamicResource SecondColor}" BlurRadius="2"></DropShadowEffect>
+                    </Border.Effect>
+                </Border>
+                <TextBlock Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="1"
+                           MinWidth="200" MaxWidth="500" Padding="8,8,8,0" TextWrapping="Wrap"
+                           Text="{Binding text}" FontSize="{StaticResource Small}" Foreground="White"
+                           FontFamily="{StaticResource MessageFont}"></TextBlock>
+                <Label  Grid.Column="3" Grid.Row="2" Content="{Binding fromAndDate}" 
+                        Foreground="AntiqueWhite" FontSize="10" FontStyle="Italic"
+                        Padding="0,3,3,3" FontFamily="{StaticResource BaseFont}"
+                        VerticalAlignment="Bottom" HorizontalAlignment="Right"></Label>
+
+                <Grid.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                                        From="-200,0,0,0" To="0"
+                                                        AccelerationRatio="0.9" Duration="0:0:0.5">
+                                        <ThicknessAnimation.EasingFunction>
+                                            <ElasticEase EasingMode="EaseOut" Oscillations="1" Springiness="7" />
+                                        </ThicknessAnimation.EasingFunction>
+                                    </ThicknessAnimation>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Grid.Triggers>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="TelegramMessage">
+            <Grid  MinHeight="30" >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="#0088CC" Grid.ColumnSpan="4" CornerRadius="8" Grid.RowSpan="4">
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="1" Color="#0088CC" BlurRadius="2"></DropShadowEffect>
+                    </Border.Effect>
+                </Border>
+                <TextBlock Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="1" 
+                           MinWidth="200" MaxWidth="500"  Padding="8,8,8,0"
+                           Foreground="White" Text="{Binding text}" TextWrapping="Wrap" FontSize="{StaticResource Small}"
+                           FontFamily="{StaticResource MessageFont}"></TextBlock>
+                <Label Grid.Row="2" Padding="0,3,3,3" Grid.Column="3"  
+                       Foreground="AntiqueWhite"  FontSize="10" FontStyle="Italic" 
+                       Content="{Binding fromAndDate}" FontFamily="{StaticResource BaseFont}"
+                       HorizontalAlignment="Right" VerticalAlignment="Bottom" ></Label>
+
+                <Grid.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                                        From="-200,0,0,0" To="0"
+                                                        AccelerationRatio="0.9" Duration="0:0:0.5">
+                                        <ThicknessAnimation.EasingFunction>
+                                            <ElasticEase EasingMode="EaseOut" Oscillations="1" Springiness="7" />
+                                        </ThicknessAnimation.EasingFunction>
+                                    </ThicknessAnimation>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Grid.Triggers>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="VkMessage">
+            <Grid  MinHeight="30" >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="#4680C2" Grid.ColumnSpan="4" CornerRadius="8" Grid.RowSpan="4">
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="1" Color="#4680C2" BlurRadius="2"></DropShadowEffect>
+                    </Border.Effect>
+                </Border>
+                <TextBlock Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="1" 
+                           MinWidth="200" MaxWidth="500"  Padding="8,8,8,0"
+                           Foreground="White" Text="{Binding text}" TextWrapping="Wrap" FontSize="{StaticResource Small}"
+                           FontFamily="{StaticResource MessageFont}"></TextBlock>
+                <Label Grid.Row="2" Padding="0,3,3,3" Grid.Column="3"  
+                       Foreground="AntiqueWhite"  FontSize="10" FontStyle="Italic" 
+                       Content="{Binding fromAndDate}" FontFamily="{StaticResource BaseFont}"
+                       HorizontalAlignment="Right" VerticalAlignment="Bottom" />
+                
+                <Grid.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ThicknessAnimation Storyboard.TargetProperty="Margin"
+                                                        From="-200,0,0,0" To="0"
+                                                        AccelerationRatio="0.9" Duration="0:0:0.5">
+                                        <ThicknessAnimation.EasingFunction>
+                                            <ElasticEase EasingMode="EaseOut" Oscillations="1" Springiness="7" />
+                                        </ThicknessAnimation.EasingFunction>
+                                    </ThicknessAnimation>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Grid.Triggers>
+            </Grid>
+        </DataTemplate>
+        <t:MessageTemplateSelector          
+                UserMessage="{StaticResource UserMessage}"  
+                DuckMessage="{StaticResource DuckyMesaage}"
+                TelegramMessage="{StaticResource TelegramMessage}"
+                VkMessage="{StaticResource VkMessage}"
+                x:Key="TS"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Label Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="10" 
+               Style="{DynamicResource BigLabelStyle}"
+               VerticalAlignment="Top" HorizontalAlignment="Left">Main</Label>
+
+        <Border Grid.Column="0" Grid.ColumnSpan="60" Grid.Row="2" Grid.RowSpan="2"
+                Background="{DynamicResource FirstColorBrush}"/>
+
+        <Ellipse Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="5,5,5,5">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="{Binding DuckyImage}"  Stretch="UniformToFill"/>
+            </Ellipse.Fill>
+        </Ellipse>
+
+        <StackPanel Grid.Row="2" Grid.RowSpan="2" Grid.Column="3" Grid.ColumnSpan="6" VerticalAlignment="Center"     >
+            <Label FontSize="18" Style="{StaticResource BigLabelStyle}" 
+                   VerticalAlignment="Top">Ducky</Label>
+            <Label FontSize="{StaticResource Small}" FontFamily="{StaticResource BaseFont}"
+                   Content="{Binding Status}" Foreground="{Binding Color}"
+                   VerticalAlignment="Bottom" HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <ListView Grid.Row="4" Grid.RowSpan="15" Grid.ColumnSpan="30"
+                  ItemsSource="{Binding Messages}" ItemTemplateSelector="{StaticResource TS}" 
+                  Background="Transparent" BorderBrush="Transparent"  BorderThickness="0" 
+                  lb:ListBoxBehavior.ScrollOnNewItem="true"
+                  Style="{DynamicResource ChatListViewStyle1}"  
+                  ItemContainerStyle="{DynamicResource ListViewContainerStyle}">
+        </ListView>
+
+        <Border Grid.Row="19" Grid.RowSpan="2" Grid.ColumnSpan="30" 
+                Background="{DynamicResource FirstColorBrush}"/>
+        <xctk:WatermarkTextBox Grid.Row="19" Grid.RowSpan="2" Grid.ColumnSpan="29" Grid.Column="1"
+                               Watermark="Enter your message here..." 
+                               FontFamily="{StaticResource MessageFont}" FontSize="{StaticResource Small}"
+                               Foreground="White" 
+                               Text="{Binding UserMassageTB, UpdateSourceTrigger=PropertyChanged}" 
+                               Background="{DynamicResource FirstColorBrush}"  BorderThickness="0" 
+                               VerticalAlignment="Center"  AcceptsReturn="False" >
+            <TextBox.InputBindings>
+                <KeyBinding  Command="{Binding SendCommand}" Key="Enter"/>
+            </TextBox.InputBindings>
+        </xctk:WatermarkTextBox>
+        
+        <Button Grid.Row="19" Grid.Column="27" Grid.RowSpan="2"  Grid.ColumnSpan="3"
+                Visibility="Hidden"  Content="Отправить"
+                Background="{DynamicResource FirstColorBrush}" BorderThickness="0"
+                Foreground="White"  Command="{Binding SendCommand}"/>
+            
+    </Grid>
+</UserControl>
